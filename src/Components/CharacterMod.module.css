@@ -1,0 +1,52 @@
+.SoundsCon{
+    display: flex;
+    flex-direction: column;
+}
+
+.Sounds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+    gap: .8rem;
+}
+
+.Sounds p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.Sounds p span{
+    color: #2C94D6;
+}
+
+.SoundsBtn {
+    background: #2C94D6;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: inherit;
+    color: white;
+    padding: .4rem 1rem;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.SoundsBtn:hover{
+    background: #ffc524;
+    color: #fff;
+}
+
+.NameCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.NameCon h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
